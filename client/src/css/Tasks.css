@@ -1,0 +1,19 @@
+.tasks-header {
+  margin: 1.6rem 0;
+  display: flex;
+  gap: 2rem;
+}
+.tasks-header__button {
+  background-color: var(--emeral-500);
+  border: none;
+  color: white;
+}
+.tasks-header__button:hover {
+  background-color: var(--emeral-600);
+}
+
+.tasks {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}

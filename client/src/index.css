@@ -1,0 +1,79 @@
+:root {
+  --c-black: #202020;
+  --zinc-700: rgb(63 63 70);
+  --zinc-800: rgb(39 39 42);
+  --sky-500: rgb(14 165 233);
+  --sky-600: rgb(2 132 199);
+  --blue-500: rgb(59 130 246);
+  --blue-600: rgb(37 99 235);
+  --emeral-500: rgb(16 185 129);
+  --emeral-600: rgb(5 150 105);
+  --slate-300: rgb(203 213 225);
+  --red-500: rgb(239 68 68);
+  --red-600: rgb(220 38 38);
+  --rounded-md: 0.6rem;
+  --c-error: rgb(239 68 68);
+}
+#root {
+  position: relative;
+}
+/*Reseting defaults styles*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--c-black);
+  color: white;
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover {
+  cursor: pointer;
+  color: rgb(208, 240, 240);
+}
+/*setting global styles*/
+main {
+  height: 100vh;
+  padding-top: 5rem;
+}
+section {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  max-width: 107rem;
+  height: 100%;
+  padding: 0 4rem;
+}
+@media (max-width: 460px) {
+  .container {
+    padding: 0 1.7rem;
+  }
+}
+button {
+  font-family: inherit;
+  padding: 0.8rem;
+  border-radius: var(--rounded-md);
+  transition: all 0.3s ease;
+}
+button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+input {
+  font-family: inherit;
+}

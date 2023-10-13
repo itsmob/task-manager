@@ -1,0 +1,38 @@
+.task-card {
+  background-color: var(--zinc-800);
+  max-width: 44.8rem;
+  padding: 1.8rem;
+  border-radius: var(--rounded-md);
+}
+.task-card-header {
+  display: flex;
+  gap: 0.8rem;
+}
+.task-card__description {
+  margin: 0.8rem 0;
+}
+.task-card__buttons {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+.task-card__button {
+  border: none;
+  color: white;
+  padding: 0.8rem 1.6rem;
+}
+.task-card__button--delete {
+  background-color: var(--red-500);
+}
+.task-card__button--delete:hover {
+  background-color: var(--red-600);
+}
+.task-card__button--edit {
+  background-color: var(--blue-500);
+}
+.task-card__button--edit:hover {
+  background-color: var(--blue-600);
+}
+.task-card__description {
+  color: var(--slate-300);
+}

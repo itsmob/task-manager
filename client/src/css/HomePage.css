@@ -1,0 +1,11 @@
+.home {
+  height: 100vh;
+  padding-top: 5rem;
+}
+.hero h1 {
+  margin: 1.6rem 0;
+  color: skyblue;
+}
+.hero p {
+  margin: 2rem 0;
+}

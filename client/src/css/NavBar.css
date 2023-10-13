@@ -1,0 +1,33 @@
+.nav {
+  background-color: var(--zinc-700);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5rem;
+  font-size: 1.8rem;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+/*h3 and ul*/
+.app-title,
+.nav__links {
+  display: flex;
+}
+/*li*/
+.nav__links li {
+  height: 100%;
+}
+/*a*/
+.nav__link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.nav__link:hover {
+  background-color: var(--zinc-800);
+}

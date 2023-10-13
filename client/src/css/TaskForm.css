@@ -1,0 +1,41 @@
+.task-form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-form {
+  background-color: var(--zinc-800);
+  padding: 4rem;
+  max-width: 44.8rem;
+  border-radius: var(--rounded-md);
+  color: white;
+}
+.task-form__title {
+  background-color: var(--zinc-700);
+  border-radius: var(--rounded-md);
+  color: white;
+  padding: 0.8rem 1.6rem;
+  margin: 1.6rem 0 0.8rem 0;
+  border: none;
+  width: 100%;
+}
+.task-form__description {
+  background-color: var(--zinc-700);
+  border-radius: var(--rounded-md);
+  color: white;
+  padding: 0.8rem 1.6rem;
+  margin: 1.6rem 0 0.8rem 0;
+  border: none;
+  width: 100%;
+  resize: none;
+}
+.task-form__button--save {
+  border: none;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  background-color: var(--sky-500);
+}
+
+.task-form__button--save:hover {
+  background-color: var(--sky-600);
+}
