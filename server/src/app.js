@@ -1,3 +1,4 @@
+import { FRONTEND_URI } from './config.js';
 import express from 'express';
 import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
@@ -10,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'https://task-manager-sandy-nu.vercel.app/',
+    origin: FRONTEND_URI,
     credentials: true,
   }),
 );
