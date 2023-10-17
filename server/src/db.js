@@ -1,9 +1,10 @@
 import mongoose from 'mongoose';
+import { MONGO_DB_URI } from './config.js';
 
 export async function connectDB() {
   try {
-    await mongoose.connect('mongodb://127.0.0.1:27017/task-manager');
-    console.log('DB is connected');
+    const db = await mongoose.connect(MONGO_DB_URI);
+    console.log(`Connected to ${db.connection.name} db`);
   } catch (error) {
     console.log(error);
   }
